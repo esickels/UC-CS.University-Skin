@@ -1,0 +1,83 @@
+﻿.UniversityHorizontalMenu .menu-theme
+{
+	height:28px;
+	background:url(images/vertical_separator.jpg) left no-repeat;
+	border:none;
+}
+* html .UniversityHorizontalMenu .menu-theme{
+	display:inline;
+	zoom:1;
+}
+.UniversityHorizontalMenu .menu-top-level li
+{
+	border:none !important;
+	height:21px !important;
+	padding:7px 19px 0 17px !important;
+	background:url(images/vertical_separator.jpg) right no-repeat !important;
+	color: #FFFFFF !important;
+	font-weight:normal;
+}
+.UniversityHorizontalMenu .menu-top-level li a,
+.UniversityHorizontalMenu .menu-top-level li a:visited,
+.UniversityHorizontalMenu .menu-top-level li a:link{
+	color: #FFFFFF !important;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	font-family:"Times New Roman", Times, serif !ie;
+	font-size:15px !ie;
+	font-weight: inherit;
+}
+.UniversityHorizontalMenu .menu-top-level li a:hover{
+	text-decoration:underline;
+}
+.UniversityHorizontalMenu .menu-top-level li.selected{
+	font-weight:bold;
+	text-decoration:none;
+}
+/*for ie 6 7*/
+
+.UniversityHorizontalMenu .menu-top-level li.selected *
+{
+	font-weight:bold !ie;
+	
+}
+.UniversityHorizontalMenu .menu-top-level li.selected * a
+{
+	font-weight:normal !ie;
+}
+.UniversityHorizontalMenu .menu-top-level li.selected *
+{
+	font-weight:bold !ie;
+	
+}
+.UniversityHorizontalMenu .menu-top-level li.selected * a
+{
+	font-weight:normal !ie;
+}
+
+/*end for ie*/
+.UniversityHorizontalMenu .menu-innel-level{
+	background: #2c2c2c !important;
+	border:none;
+	-moz-border-radius-bottomleft: 5px; 
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+.UniversityHorizontalMenu .menu-innel-level li
+{
+	background: url(images/horizontal_separator.jpg) bottom repeat-x !important;
+	height:20px !important;
+	padding:5px 5px 0;
+}
+.UniversityHorizontalMenu .menu-innel-level li.last{
+	background:none !important;
+}
+.UniversityHorizontalMenu .menu-innel-level li a,
+.UniversityHorizontalMenu .menu-innel-level li a:hover,
+.UniversityHorizontalMenu .menu-innel-level li a:link,
+.UniversityHorizontalMenu .menu-innel-level li a:visited{
+	color:#FFFFFF !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:11px !important;
+}

@@ -1,0 +1,32 @@
+.BannerContainer {
+	position: relative;
+}
+
+.BannerContainer .cs-container-header { 
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	margin: 4px;
+}
+
+.BannerContainer .cs-container-footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	margin-bottom: 10px;
+}
+
+.BannerContainer .cs-container-footer a.CommandButton {
+	color: #ccc;
+}
+
+.BannerContainer .cs-container-actions .txt {
+	white-space: nowrap;
+}
+.BannerContainer .cs-container-body{
+	border:1px solid #f3f1ed;
+	padding:10px;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+}

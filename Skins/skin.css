@@ -1,0 +1,330 @@
+/* CSS Document */
+#Body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+/* ControlPanel style */
+.ControlPanel{background:#FFFFFF; border:none;padding-bottom:10px;}
+.cpanel_left {padding-left:21px;}
+.cpanel_right {padding-right:33px;}
+
+/*-------- Default Style --------*/
+body,th,td,div,table, input, .CommandButton{color:#2E3D47; font-family:Arial, Helvetica, sans-serif;}
+body,th,td,div,table{color:#2E3D47; font-family:Arial, Helvetica, sans-serif;}
+p,
+.Normal,
+.NormalDisabled.
+.NormalBold{
+	color:#FFFFFF;
+}
+body,th,td,div,p,table,.Normal,.NormalDisabled,.Head,.SubHead,.SubSubHead, a:link, a:visited, a:hover{font-size:12px;}
+h1, h2, h3, h4, h5, h6{font-family:Arial, Helvetica, sans-serif; color:#3a3a3a;}
+h1, h3, h5, h1 input{font-weight:normal;}
+h2, h4, h6{font-weight:normal}
+h1, h2, h1 input{
+	font-size:14px;
+	margin:10px 0;
+}
+h3, h4{font-size:12px;margin:8px 0;}
+h5, h6{font-size:10px;margin:6px 0;}
+
+a img{
+	border:none;
+}
+
+a,a:link,a:visited,a:active,a:hover{
+	color:#3a3a3a;
+	text-decoration:none;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	outline:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.Head, .SubHead, .SubSubHead, .Normal, .NormalDisabled, .NormalDisabled, .NormalBold, .NormalRed, .NormalTextBox
+{font-family:Arial, Helvetica, sans-serif;}
+.Head{color:#3a3a3a;font-weight:bold;}
+.SubHead {color:#3a3a3a;}
+.SubSubHead{color:#3a3a3a;}
+.NormalRed {color:#F00;}
+.NormalTextBox{color:#000000;}
+
+
+/*Datagrids */
+.DataGrid_Container {margin-top:15px;}
+.DataGrid_Header{font-weight:bold; color:#FFFFFF;}
+.DataGrid_Header td, .NormalBold td{font-weight:bold;}
+.DataGrid_AlternatingItem td{color: #FF0000;}
+
+/*-------- design style --------*/
+.cs-wrapper{
+	background:#ffffff;
+	min-width:980px;	
+}
+.cs-header{
+	background:#800505;
+}
+.cs-header .header-gradient{
+	background:url(images/header_bg.png) repeat-x;
+}
+.cs-header .header-center{
+	width:980px;
+	margin:0 auto;
+	height:70px;
+}
+.logo{
+	float:left;
+	padding:9px 0 0 15px;
+}
+.cs-header .right-top{
+	float:right;
+}
+.menu{
+	background: url(images/menu_bg.jpg) repeat-x;
+	height:28px;
+	position:relative;
+	z-index:12;
+}
+.menu-align-center-to-left{
+	float:right;
+	position:relative;
+	right:50%;
+	z-index:12;
+}
+.menu-align-center-to-right{
+	position:relative;
+	z-index:20;
+	right:-50%;
+}
+.cs-center{
+	width:980px;
+	margin:15px auto;
+	overflow:hidden;
+}
+* html .center{
+	zoom:1;
+}
+.clear_float{clear:both; line-height:0; font-size:0; height:0;}
+/*-------------Skin Prices-----------*/
+.SkinPrices .PriceTag {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(images/PriceTag.png) no-repeat scroll 0 0;
+color:#FFFFFF !important;
+float:left;
+font-size:18px !important;
+height:47px;
+line-height:41px !important;
+margin-left:-6px;
+text-align:center;
+width:100px;
+}
+.SkinPrices .SkinEditionIcon img {
+margin:5px 0 0 !important;
+}
+.SkinPrices .SkinEditionIcon {
+float:right;
+}
+.SkinPrices h3 {
+font-weight:bold;
+margin-bottom:12px !important;
+padding-bottom:5px;
+padding-top:0;
+}
+.SkinPrices .SkinEditionLongTitle .PriceTag {
+margin-top:-14px;
+}
+.SkinPrices .SkinEditionLongTitle .SkinEditionIcon img {
+margin:0 0 0 !important;
+}
+.SkinPrices .SkinEditionLongTitle {
+padding-top:9px;
+}
+.SkinPrices .SkinEditionNoBorder {
+border:medium none;
+}
+/* ------- FileManager -------*/
+div.FileManager{height:auto;border:none;}
+table.FileManager{width:99%}
+
+
+a.CommandButton:link, a.CommandButton:visited{color:#3a3a3a; font-weight:bold; text-decoration:none;}
+a.CommandButton:hover{color:#0089d5; text-decoration:underline;}
+
+/*-------ControlPanel changes ---------------*/
+.ControlPanel a.CommandButton:link, 
+.ControlPanel a.CommandButton:visited
+{
+	color:#3a3a3a;
+}
+.ControlPanel a.CommandButton:hover
+{
+	color:#0089d5;
+	text-decoration:underline;
+}
+.ControlPanel a.CommandButton:link, .ControlPanel a.CommandButton:visited, .ControlPanel .SubHead{font-size:11px;}
+
+/*--------- pane style ----------*/
+.ContentPane, .TopPane, .BottomPane{ padding:0; margin:0; }
+.LeftPane{ padding:0 20px 0 0; width:20%; margin:0; }
+.RightPane{ padding:0 0 0 20px; width:20%; margin:0; }
+
+
+/*------------ Breadcrumb Style --------------*/
+.Breadcrumb,a.Breadcrumb:link,a.Breadcrumb:active,a.Breadcrumb:visited{color:#3E81B5;}
+a.Breadcrumb:hover{color:#C00;}
+
+/*-------------- Link Style --------------*/
+.links-holder{
+	margin-bottom:10px;
+}
+.links,
+a.links:link,
+a.links:active,
+a.links:visited,
+a.links:hover{
+	color:#aaaaaa;
+	font-size:12px;
+}
+span.links{
+	padding:0 7px;
+}
+a.cs-link{
+	color:#116999 !important;
+	font-size:10px !important;
+}
+/*-------------- User-Login Style --------------*/
+.user-login{
+	margin:6px 25px 15px 0;
+	text-align:right;
+}
+a.user, a.login,
+a.user:hover, a.login:hover,
+a.user:visited, a.login:visited,
+a.user:link, a.login:link,
+.user-login span{
+	color:#FFFFFF;
+	font-size:11px;
+}
+.user-login span{
+	margin-right:5px;
+	margin-left:5px;
+}
+
+/*-------------- Footer Style --------------*/
+.cs-footer{
+	background:url(images/footer_bg.jpg) repeat-x;
+}
+.cs-footer .footer-center{
+	text-align:center;
+	margin:0 auto;
+	width:980px;
+	height:65px;
+	padding-top:11px;
+}
+.cs-footer .copyright{
+	color:#6f6f6f;
+	font-size:10px !important;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*-------------- Empty panes Style --------------*/
+.DNNEmptyPane{width:0 !important;padding:0 !important ;margin:0; line-height:0 !important; font-size:0px;}
+
+/*-------------- Search SkinObject Styles --------------*/
+
+
+
+
+*+html .UniversityHorizontalMenu ul li {
+	position:relative;
+}
+
+/*******************************************
+ * Experimental SearchCrawler *
+*******************************************/
+div.sc_item a.sc_title {
+	font: 11pt Arial, Helvetica, sans-serif;
+	color: #990000;
+	text-decoration: none;
+}
+div.sc_item a.sc_title:hover {
+	text-decoration: underline;
+}
+div.sc_item {
+	margin: 0;
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid #c6c6c6;
+}
+div.sc_sample {
+	padding: 10px 0 10px 0;
+	font: 9pt Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height: 145%;
+}
+span.sc_path {
+	color: #B0B2B4	;
+}
+div.sc_sample:last-child {
+	display: none;
+}
+div.ModSearchCrawlerInputC {
+	height: 23px;
+}
+input.CmdSearch {
+
+	background: url('images/search_go.png') 0 1px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	height: 19px;
+	width: 19px;
+	text-indent: -9999px;
+	margin-left: 3px;
+	border: 0;
+	float: left;
+	clear: right;
+	
+}
+
+	
+
+
+.TxtSearch {
+	color: #ba826f;
+	height: 23px;
+	width: 142px;
+	padding: 0 3px;
+	/*width: 140px;*/
+	font: 8pt Arial, Helvetica, sans-serif;
+	border: 0;
+	background: #ffffff;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	float: left;
+}
+div.sc_navigation {
+	padding: 10px 0 0 0;
+}
+a.navigation {
+	border: 1px solid #c6c6c6;
+}
+a.navigation:hover {
+	background: #7d110c;
+	color: #f8f3d2;
+	border: 1px solid #c6c6c6;
+}
+/*******************************************
+ * END EXPERIMENTAL SEARCHCRAWLER *
+*******************************************/
+
+
+
+
+
+
+

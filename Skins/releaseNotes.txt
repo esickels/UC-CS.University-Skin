@@ -1,0 +1,16 @@
+<b>Version 1.0.1</b>
+<ul>
+    <li>Initial release</li>
+</ul>
+<b>Version 1.1.0</b>
+<ul>
+    <li>Added self-hosted MenuBox theme.</li>
+    <li>Cross-browser CSS fixed</li>
+</ul>
+<b>Version 1.2.0</b>
+<ul>
+    <li>IE9 support.</li>
+    <li>Dropdown menu fixed in IE7.</li>
+</ul>
+
+

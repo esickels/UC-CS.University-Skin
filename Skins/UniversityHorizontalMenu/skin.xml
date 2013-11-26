@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<skin>
+  <skin_id>UniversityHorizontalMenu</skin_id>
+  <skin_image>skin.jpg</skin_image>
+  <version>1.0</version>
+  <template_name>University Horizontal</template_name>
+  <description>University Horizontal Menu Theme</description>
+  <default>true</default>
+  <html>
+    <renderer>html/WrapperTemplate.ascx</renderer>
+  </html>
+  <js>
+    <files>
+      <file unique="true" unique_name="jquery">
+        <path>js/jquery.js</path>
+      </file>
+      <file unique="true" unique_name="jquery.bgiframe">
+        <path>js/jquery.bgiframe.js</path>
+      </file>
+      <file unique="true" unique_name="jquery.dimensions">
+        <path>js/jquery.dimensions.js</path>
+      </file>
+      <file unique="true" unique_name="jquery.positionBy">
+        <path>js/jquery.positionBy.js</path>
+      </file>
+      <file unique="true" unique_name="jquery.jdMenu">
+        <path>js/jquery.jdMenu.js</path>
+      </file>
+    </files>
+  </js>
+  <css>
+    <root_css_class>{skin_id}</root_css_class>
+    <files>
+      <file unique="true" unique_name="jquery.jdMenu.base">
+        <path>base.css</path>
+      </file>
+      <file unique="true" unique_name="jquery.jdMenu.theme">
+        <path>theme.css</path>
+      </file>
+    </files>
+  </css>
+</skin>

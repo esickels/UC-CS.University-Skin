@@ -1,0 +1,219 @@
+/* GLOBAL SECTION */
+.cs-clear-fix {clear: both;}
+.cs-container img {border: 0px;}
+.ModuleTitle_MenuBreak, .ModuleTitle_MenuBreak .ModuleTitle_MenuIcon{height:3px;}
+.ModuleTitle_MenuItem{border:none;}
+/* END GLOBAL SECTION */
+/* HEADER SECTION */
+.cs-container {margin-bottom: 20px;}
+.cs-container .cs-container-header {margin:0 0 5px 0;}
+.cs-container .cs-container-header .cs-container-actions {float: left; margin-right: 3px;}
+.cs-container .cs-container-header .cs-container-actions .ModuleTitle_MenuItem {border: none;}
+.cs-container .cs-container-header .cs-container-title {}
+.cs-container .cs-container-header .cs-container-title img {float: left; margin-right: 10px;}
+.cs-container .cs-container-header .cs-container-title h1 {margin:0px; padding: 0px;}
+.cs-container .cs-container-header .cs-container-visibility {float: right;}
+.cs-container .cs-no-header-image .cs-container-header .cs-container-title h1 img {display: none;}
+/* END HEADER SECTION */
+/* FOOTER SECTION */
+.cs-container .cs-container-footer {text-align: right;}
+.cs-container .cs-container-footer span{padding:0px 2px;}
+/* END FOOTER SECTION-------------------------------------------------------------------------------------------------- */
+/*DEFAULT CONTAINERS =============================================*/
+.cs-default .cs-container-body a,
+.cs-default .cs-container-body a:hover,
+.cs-default .cs-container-body a:link,
+.cs-default .cs-container-body a:visited{
+	color:#0089d5;
+}
+.cs-default .cs-container-body a:hover{
+	text-decoration:underline;
+}
+/*BIG*/
+.cs-default-big .cs-container-header .cs-container-title h1 .TitleHead,
+.cs-default-big .cs-container-body h1{
+	color:#383838;
+	font-size:23px;
+}
+.cs-default-big .cs-container-body,
+.cs-default-big .cs-container-body div,
+.cs-default-big .cs-container-body h2,
+.cs-default-big .cs-container-body h3,
+.cs-default-big .cs-container-body h4,
+.cs-default-big .cs-container-body h5,
+.cs-default-big .cs-container-body h6,
+.cs-default-big .cs-container-body p,
+.cs-default-big .cs-container-body .Normal,
+.cs-default-big .cs-container-body li,
+.cs-default-big .cs-container-body td{
+	color:#383838;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cs-default-big .cs-container-body,
+.cs-default-big .cs-container-body div,
+.cs-default-big .cs-container-body p,
+.cs-default-big .cs-container-body .Normal,
+.cs-default-big .cs-container-body li,
+.cs-default-big .cs-container-body td,
+.cs-default-big .cs-container-body a,
+.cs-default-big .cs-container-body a:hover,
+.cs-default-big .cs-container-body a:link,
+.cs-default-big .cs-container-body a:visited{
+	font-size:14px;
+	line-height:1.6em;
+}
+
+/*MEDIUM*/
+.cs-default-medium .cs-container-header .cs-container-title h1 .TitleHead,
+.cs-default-medium .cs-container-body h1{
+	color:#3a3a3a;
+	font-weight:bold;
+	font-size:21px;
+}
+.cs-default-medium .cs-container-body,
+.cs-default-medium .cs-container-body div,
+.cs-default-medium .cs-container-body h2,
+.cs-default-medium .cs-container-body h3,
+.cs-default-medium .cs-container-body h4,
+.cs-default-medium .cs-container-body h5,
+.cs-default-medium .cs-container-body h6,
+.cs-default-medium .cs-container-body p,
+.cs-default-medium .cs-container-body .Normal,
+.cs-default-medium .cs-container-body li,
+.cs-default-medium .cs-container-body td{
+	color:#3a3a3a;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cs-default-medium .cs-container-body,
+.cs-default-medium .cs-container-body div,
+.cs-default-medium .cs-container-body p,
+.cs-default-medium .cs-container-body .Normal,
+.cs-default-medium .cs-container-body li,
+.cs-default-medium .cs-container-body td,
+.cs-default-medium .cs-container-body a,
+.cs-default-medium .cs-container-body a:hover,
+.cs-default-medium .cs-container-body a:link,
+.cs-default-medium .cs-container-body a:visited{
+	font-size:13px;
+	line-height:1.6em;
+}
+/*SMALL*/
+.cs-default-small .cs-container-header .cs-container-title h1 .TitleHead,
+.cs-default-small .cs-container-body h1{
+	color:#383838;
+	font-size:16px;
+}
+.cs-default-small .cs-container-body,
+.cs-default-small .cs-container-body div,
+.cs-default-small .cs-container-body h2,
+.cs-default-small .cs-container-body h3,
+.cs-default-small .cs-container-body h4,
+.cs-default-small .cs-container-body h5,
+.cs-default-small .cs-container-body h6,
+.cs-default-small .cs-container-body p,
+.cs-default-small .cs-container-body .Normal,
+.cs-default-small .cs-container-body li,
+.cs-default-small .cs-container-body td{
+	color:#383838;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cs-default-small .cs-container-body h2{
+	font-weight:bold;
+	font-size:16px;
+}
+.cs-default-small .cs-container-body,
+.cs-default-small .cs-container-body div,
+.cs-default-small .cs-container-body p,
+.cs-default-small .cs-container-body .Normal,
+.cs-default-small .cs-container-body li,
+.cs-default-small .cs-container-body td,
+.cs-default-small .cs-container-body a,
+.cs-default-small .cs-container-body a:hover,
+.cs-default-small .cs-container-body a:link,
+.cs-default-small .cs-container-body a:visited{
+	font-size:12px;
+	line-height:1.6em;
+}
+.cs-default-small .cs-container-body ul{
+	list-style:inside;
+}
+.cs-default-small .cs-container-body li{
+	color:#0089d5 !important;
+	list-style:square inside;
+	margin-bottom:10px;
+}
+
+/*LINKS CONTAINER=====================================*/
+.cs-links .cs-container-header .cs-container-title h1 .TitleHead,
+.cs-links .cs-container-body h1{
+	color:#383838;
+	font-size:16px;
+}
+.cs-links .cs-container-body{
+	background:#f8f8f8;
+	border:1px solid #f0eee8;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	padding:10px;
+}
+.cs-links .cs-container-body a,
+.cs-links .cs-container-body a:hover,
+.cs-links .cs-container-body a:link,
+.cs-links .cs-container-body a:visited{
+	background:url(images/links_marker.png) left 4px no-repeat;
+	color:#0089d5;
+	font-size:13px;
+	display:block;
+	padding-left:11px;
+}
+.cs-links .cs-container-body ul{
+	margin:0;
+	padding:0;
+}
+.cs-links .cs-container-body,
+.cs-links .cs-container-body div,
+.cs-links .cs-container-body p,
+.cs-links .cs-container-body td
+.cs-links .cs-container-body .Normal,
+.cs-links .cs-container-body li{
+	color:#0089d5;
+	font-size:13px;
+}
+.cs-links .cs-container-body li,
+.cs-links .cs-container-body p{
+	background:url(images/list_hor_sep.png) bottom repeat-x;
+	padding:11px 0;
+	list-style:none;
+	margin:0;
+}
+/*LINKS CONTAINER LIST=================================*/
+.cs-links-list .cs-container-header .cs-container-title h1 .TitleHead,
+.cs-links-list .cs-container-body h1{
+	color:#3a3a3a;
+	font-size:16px;
+}
+.cs-links-list .cs-container-body a,
+.cs-links-list .cs-container-body a:hover,
+.cs-links-list .cs-container-body a:link,
+.cs-links-list .cs-container-body a:visited{
+	color:#0089d5;
+	font-size:13px;
+	text-decoration:underline;
+}
+.cs-links-list .cs-container-body ul{
+	padding-left:20px;
+	margin:10px 0 0;
+}
+.cs-links-list .cs-container-body li{
+	margin:15px;
+	padding:0px;
+	color:#383838;
+}
+.cs-links-list .cs-container-body,
+.cs-links-list .cs-container-body div,
+.cs-links-list .cs-container-body p,
+.cs-links-list .cs-container-body td,
+.cs-links-list .cs-container-body .Normal{
+	color:#aaaaaa;
+	font-size:11px;
+}

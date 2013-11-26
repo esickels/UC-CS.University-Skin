@@ -1,0 +1,120 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>BannerContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>BannerContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>BannerContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>container.css</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultBigHeaderContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultBigHeaderContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultBigHeaderContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultMediumBoldHeaderContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultMediumBoldHeaderContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultMediumBoldHeaderContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultSmallHeaderContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultSmallHeaderContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>DefaultSmallHeaderContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>EditContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>EditContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>EditContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksListContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksListContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>LinksListContainer.jpg</name>
+    </file>
+    <file>
+      <path />
+      <name>NoHeaderDefaultContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>NoHeaderDefaultContainer.css</name>
+    </file>
+    <file>
+      <path />
+      <name>NoHeaderDefaultContainer.jpg</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>dnn-minus.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>dnn-plus.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>links_marker.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>list_hor_sep.png</name>
+    </file>
+  </files>
+</dotnetnuke>

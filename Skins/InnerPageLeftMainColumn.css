@@ -1,0 +1,24 @@
+.cs-left-column{
+	float:left;
+	width:720px;
+}
+*html .cs-left-column{margin-right:-3px;}
+.cs-right-column{
+	float:right;
+	width:222px;
+	
+}
+.cs-left-column-in-right{
+	float:left;
+}
+.cs-left-column-in-right .pane{
+	width:165px;
+	padding-right:10px;
+}
+*html .cs-left-column-in-right{margin-right:-3px;}
+.cs-right-column-in-right{
+	/*float:right;
+	width:540px;*/
+	overflow:hidden;
+	zoom:1 !ie;
+}
