@@ -348,6 +348,43 @@ a.navigation:hover {
 	display:none;	
 }
 
+/*menu*/
 
+ul.rmRootGroup>li.rmItem{
+    height:21px !important;
+    background:url("images/vertical_separator.jpg") no-repeat scroll right center transparent !important;
+    padding: 7px 19px 0px 17px !important;
+    cursor: pointer;
+}
 
+ul li.rmItem span.rmText{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: sans-serif;
+    line-height:14px;
+    white-space: nowrap;
+}
+
+.rmSlide .rmItem{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(44,44,44) !important;
+    background: url("images/horizontal_separator.jpg") repeat-x scroll center bottom transparent;
+    
+}
+
+.rmSlide .rmItem span{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+/*Form and List CSS*/
+
+.dnnGrid{
+    width:900px !important;
+}
+
+.dnnGrid th{
+    text-align: left;
+}
 
