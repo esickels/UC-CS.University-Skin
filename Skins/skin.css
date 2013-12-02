@@ -323,7 +323,30 @@ a.navigation:hover {
 *******************************************/
 
 
+.rmText{
+    color:rgb(255,255,255);
+    font-weight:bold;
+}
 
+.rmText:hover{
+    cursor:pointer;
+}
+
+#dnn_ctr3966_dnnICON_imgIcon{
+    padding-top: 13px;
+}
+
+#dnn_ctr3978_RotatorEdit_SubmitButton{
+	margin-left:200px;
+}
+
+#dnn_ctr3966_ContentPane{
+       padding-left:35px;
+}
+
+.cs-container-visibility{
+	display:none;	
+}
 
 
 
