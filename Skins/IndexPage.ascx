@@ -10,7 +10,7 @@
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="BREADCRUMB" Src="~/Admin/Skins/BreadCrumb.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="HOSTNAME" Src="~/Admin/Skins/HostName.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="CODINGSTAFFMENU" Src="~/DesktopModules/CodingStaff.MenuBox/MenuBoxSkinObject.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="RadMenu" Src="~/Admin/Skins/DNNRadMenu/DNNRadMenu.ascx" %>
 <!--[if IE 6]>
 <script src="<%= SkinPath %>js/DD_belatedPNG.js"></script>
 <script>
@@ -51,7 +51,7 @@
 	<div class="menu">
     	<div class="menu-align-center-to-left">
             <div class="menu-align-center-to-right">
-            	<dnn:CODINGSTAFFMENU runat="server" ID="mainMenu" SkinId="UniversityHorizontalMenu" SkinLocation="Skin" />
+            	<dnn:RADMENU runat="server" id= "dnnMENU" EnableEmbeddedSkins="false" CssClass="nav" expandAnimationType="none" collapseAnimationType="none" collapseDelay="200" expandDelay="200" enablePageIcons="false"/>
             </div>
         </div>
 	</div>
