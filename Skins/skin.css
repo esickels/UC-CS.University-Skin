@@ -388,3 +388,14 @@ ul li.rmItem span.rmText{
     text-align: left;
 }
 
+.articleAuthor.Normal{
+	display: none;	
+}
+
+.articleCategories.Normal{
+	display:none;
+}
+
+div[class="Normal"]{
+	display:none;	
+}
