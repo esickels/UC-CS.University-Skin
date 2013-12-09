@@ -425,3 +425,7 @@ ol ol{
     margin-left: 3px;
     border: 0px none;
 }
+
+#searchButton:hover{
+	cursor:pointer;	
+}
