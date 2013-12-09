@@ -411,3 +411,7 @@ ol ol{
 #temp-faculty-directory-table + table{
 	width:575px;	
 }
+
+#temp-faculty-directory-table + table td:nth-child(2){
+	width:475px;	
+}
