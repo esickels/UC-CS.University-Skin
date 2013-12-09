@@ -399,3 +399,7 @@ ul li.rmItem span.rmText{
 div[class="Normal"]{
 	display:none;	
 }
+
+ol ol{
+    list-style-type:lower-alpha;
+}
