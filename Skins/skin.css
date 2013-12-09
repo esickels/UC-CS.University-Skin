@@ -403,3 +403,11 @@ div[class="Normal"]{
 ol ol{
     list-style-type:lower-alpha;
 }
+
+#temp-faculty-directory-table{
+	width:700px;	
+}
+
+#temp-faculty-directory-table + table{
+	width:575px;	
+}
